@@ -1,0 +1,19 @@
+.pinkish {
+    background-color: rgb(216, 101, 132);
+    font-family:'Verdana', 'DejaVu Sans', sans-serif;
+}
+
+#number2 {
+    font-size: 36px;
+    color: #286bc9;
+}
+
+#number4 {
+    background-color: rgb(188, 239, 146);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.biggertext {
+    font-size: 24px;
+}
