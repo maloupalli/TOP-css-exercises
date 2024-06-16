@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+*, *::after, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  /* border: 1px solid sandybrown; */
+}
+
 body {
   height: 100vh;
   margin: 0;
@@ -16,6 +24,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  color: #181818;
+  padding: 8px;
 }
 
 input {
@@ -23,4 +33,47 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+a {
+  color: #5f5f5f;
+}
+
+ul {
+  list-style: none;
+}
+
+.header, .left-links, .right-links, .footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header {
+  padding: 12px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.left-links {
+  margin-right: auto;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 15px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
 }
